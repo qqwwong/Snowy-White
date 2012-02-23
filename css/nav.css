@@ -1,0 +1,135 @@
+/* 
+*	left menu
+*/
+
+.submenu ul {
+margin:0;
+padding:0;
+}
+
+.submenu li {
+display:block;
+border:none;
+background: #FFFFFF url(../images/pointille.gif) left bottom repeat-x ;
+}
+
+.submenu li a, .submenu li span.separator {
+display:block;
+background: url(../images/arrow_menu.png) 0 12px no-repeat;
+color:#696969;
+font-size:100%;
+text-align:left;
+font-weight: normal;
+line-height:12px;
+margin:0;
+padding: 8px 12px 8px 11px;
+text-decoration:none;
+}
+
+.submenu li a:hover, .submenu li#current a, .submenu li.active a,
+.submenu li#current.parent a, .submenu li.active a {
+background: url(../images/arrow_menu.png) 0 -33px no-repeat;
+text-decoration:none;
+color:red;
+}
+
+.submenu ul ul {
+margin-left:9px;
+}
+
+.submenu ul li li {
+background-image:none;
+}
+
+.submenu li li a, .submenu li li span.separator {
+background: url(../images/arrow_menu.png) 0 10px no-repeat;
+font-size:90%;
+font-weight: normal;
+color:#696969;
+text-align:left;
+padding: 6px 4px 6px 10px;
+margin-bottom:1px;
+}
+
+.submenu li li a:first-child {
+margin: 1px 0 1px 0;
+}
+
+.submenu li a:hover li a, .submenu li#current li a, .submenu li.active li a {
+background: url(../images/arrow_menu.png) 0 -35px no-repeat;
+text-decoration:none;
+color:red;
+}
+
+.submenu li.parent li a, .submenu li.parent li span.separator {
+background: url(../images/arrow_menu.png) 0 10px no-repeat;
+color:#696969;
+}
+
+.submenu li#current.parent li a, .submenu li.active.parent li a {
+background: url(../images/arrow_menu.png) 0 10px no-repeat;
+color:#696969;
+}
+
+.submenu li li a:hover, .submenu li li#current a, .submenu li li.active a, .submenu li li#current.parent a,
+.submenu li#current li a:hover, .submenu li.active li a:hover, .submenu li.parent li a:hover {
+background: url(../images/arrow_menu.png) 0 -35px no-repeat;
+text-decoration:none;
+color:red;
+}
+
+.submenu li li li a, .submenu li li li span.separator {
+background: url(../images/arrow_menu.png) 0 10px no-repeat;
+font-size:95%;
+text-transform: none;
+font-weight: normal;
+color:#696969;
+}
+
+.submenu li.active li#current li a {
+background: url(../images/arrow_menu.png) 0 10px no-repeat;
+color:#696969;
+}
+
+.submenu ul li li li a:hover, .submenu ul li li li#current a, .submenu ul li li li.active a,
+.submenu li.active li#current li a:hover {
+background: url(../images/arrow_menu.png) 0 -35px no-repeat;
+text-decoration:none;
+color:red;
+}
+
+.submenu li li li a:hover, .submenu li li li#current a, .submenu li li li.active a, .submenu li li li#current.parent a,
+.submenu li li#current li a:hover, .submenu li li.active li a:hover, .submenu li li.parent li a:hover {
+background: url(../images/arrow_menu.png) 0 -35px no-repeat;
+text-decoration:none;
+color:red;
+}
+
+/* 
+*	bottom menu
+*/
+
+#bottom_menu ul {
+margin:0;
+padding:0;
+width:auto;
+}
+
+#bottom_menu ul li {
+display:block;
+background-color:transparent;
+border:none;
+float:left;
+}
+
+#bottom_menu ul li a {
+line-height:28px;
+color: #777;
+padding:0px 12px;
+}
+
+
+#bottom_menu a:hover, #bottom_menu a#active_menu-nav, #bottom_menu li#current a {
+color: red;
+text-decoration: none;
+}

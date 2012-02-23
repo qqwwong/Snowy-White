@@ -1,0 +1,35 @@
+/*****************************************
+		SITE  IE6
+******************************************/
+
+#left {
+margin-right:22px;
+}
+
+#right {
+margin-left:22px;
+}
+
+#main_component {
+overflow:visible;
+height:1%;
+}
+
+#user4 {
+margin-right:22px;
+}
+
+#user6 {
+margin-left:22px;
+}
+
+#user5 {
+overflow:visible;
+height:1%;
+}
+
+/**	BLOG	**/
+
+.article_row {
+zoom: 1;
+}

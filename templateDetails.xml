@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<install version="1.6" type="template">
+	<name>snowy</name>
+	<creationDate>2012-02-20</creationDate>
+	<author>Wai Wong</author>
+	<copyright>Copyright 2012 Wai Wong</copyright>
+	<authorEmail>wwong@oscohk.com</authorEmail>
+	<authorUrl>http://www.oscohk.com</authorUrl>
+	<version>1.0</version>
+	<description>A clean minimal design based on the pure_white of joomspirit
+	</description>
+	<files>
+<filename>favicon.ico</filename>
+<filename>index.html</filename>
+<filename>index.php</filename>
+<filename>params.ini</filename>
+<filename>template_thumbnail.png</filename>
+<folder>css</folder>
+<folder>html</folder>
+<folder>font</folder>
+<folder>images</folder>
+<folder>lib</folder>
+</files>
+
+<positions>
+		<position>menu</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top_menu</position>
+		<position>top</position>
+		<position>search</position>
+		<position>bottom_menu</position>
+		<position>image</position>
+		<position>breadcrumb</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>advert1</position>
+		<position>advert2</position>
+		<position>logo</position>
+		<position>debug</position>
+		<position>syndicate</position>
+	</positions>
+	
+<config>
+	<fields name="params">
+		<fieldset name="basic" addfieldpath="/templates/snowy/lib/php2">
+		
+	<field name="Header01" type="header" default="Website name" label="" description="" />
+	
+			<field name="website_name" type="text" default="Snowy White" size="30" label="Website Name" description="Set Site Name" />
+		
+	<field name="Header02" type="header" default="Colors" label="" description="" />
+	
+			<field name="color_website_name" type="color" default="#ff0000" label="Color of website name" description="Please select the color for the website name that you would like to display. Default : #ff0000 " />
+			<field name="color_link" type="color" default="#ff0000" label="Color of active link" description="Please select the color for the active link that you would like to display. Default : #ff0000 " />
+
+	<field name="Header07" type="header" default="Border for middle website" label="" description="" />
+	
+		<field name="border_content" type="list" default="border_content" label="Enable a border around the middle website with a shadow" description="Shadow work on all browsers except IE." >
+			<option value="border_content">Yes</option>
+			<option value="no_border_content">No</option>
+		</field>
+		
+
+			
+	<field name="Header03" type="header" default="Width" label="" description="" />
+		
+			<field name="width" type="text" default="980px" size="10" label="Web site width" description="Enter the width for your web site in px or % and without space. Example : 900px or 95% . Default : 95%" />
+
+			<field name="width_left" type="text" default="180px" size="10" label="Width of left column" description="Enter the width for your left column in px or % and without space. Example : 260px or 20%" />
+			<field name="width_right" type="text" default="180px" size="10" label="Width of right column" description="Enter the width for your right column in px or % and without space. Example : 260px or 20%" />
+
+			<field name="user1_width" type="text" default="31%" size="10" label="Width of user1" description="Enter the width for user1 in px or % and without space. Example : 180px or 33% . Default : 31%" />
+			<field name="user3_width" type="text" default="31%" size="10" label="Width of user3" description="Enter the width for user3 in px or % and without space. Example : 180px or 33% . Default : 31%" />
+			<field name="user4_width" type="text" default="31%" size="10" label="Width of user4" description="Enter the width for user4 in px or % and without space. Example : 180px or 33% . Default : 31%" />
+			<field name="user6_width" type="text" default="31%" size="10" label="Width of user6" description="Enter the width for user6 in px or % and without space. Example : 180px or 33% . Default : 31%" />
+			
+	
+		
+	<field name="Header04" type="header" default="Font" label="" description="" />
+		
+		<field name="font" type="list" default="arial" label="Font for your menu and article title" description="">
+			<option value="Yanone+Kaffeesatz:200">Yanone 200</option>
+			<option value="JosefinSansStdLight">Josefin</option>			
+			<option value="Nobile">Nobile</option>			
+			<option value="Vollkorn">Vollkorn</option>
+			<option value="arial">arial</option>
+			<option value="Comic sans ms">Comic sans MS</option>
+			<option value="Times new roman">Times new roman</option>			
+		</field>
+		
+		<field name="font_content" type="list" default="Verdana" label="Font for your content" description="">
+			<option value="Trebuchet ms">Trebuchet ms</option>
+			<option value="arial">arial</option>
+			<option value="Comic sans ms">Comic sans MS</option>
+			<option value="Times new roman">Times new roman</option>
+			<option value="Verdana">Verdana</option>
+		</field>		
+
+		<field name="fontSize" type="list" default="12px" label="Default font size" description="Set the default font size when template is loaded for the first time">
+			<option value="10px">smallest</option>
+			<option value="11px">small</option>
+			<option value="12px">normal</option>
+			<option value="13px">big</option>
+			<option value="14px">biggest</option>
+		</field>
+		
+		
+	<field name="Header05" type="header" default="Social links" label="" description="" />
+
+		<field name="twitter" type="text" default="" size="30" label="Twitter URL " description="" />
+		<field name="blogger" type="text" default="" size="30" label="Blogger URL " description="" />
+		<field name="facebook" type="text" default="" size="30" label="Facebook URL " description="" />
+		<field name="rss" type="text" default="" size="30" label="RSS URL " description="" />
+		<field name="linkedin" type="text" default="" size="30" label="Linkedin URL " description="" />
+		<field name="myspace" type="text" default="" size="30" label="MySpace URL " description="" />
+		<field name="delicious" type="text" default="" size="30" label="Delicious URL " description="" />
+		<field name="flickr" type="text" default="" size="30" label="Flickr URL " description="" />
+		<field name="youtube" type="text" default="" size="30" label="Youtube URL " description="" />
+		<field name="vimeo" type="text" default="" size="30" label="Vimeo URL " description="" />		
+
+	<field name="Header06" type="header" default="Mootools effect" label="" description="" />
+	
+		<field name="show_tooltips" type="list" default="1" label="Enable tooltips" description="Enable the mootools tooltips." >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</field>
+		
+				
+	</fieldset>
+	</fields>		
+
+</config>
+
+</install>
